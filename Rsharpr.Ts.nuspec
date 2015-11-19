@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>Rsharpr.Ts</id>
+		<version>0.1.0</version>
+		<authors>Daniel González García</authors>
+		<owners>Daniel González García</owners>
+		<licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+		<projectUrl>https://github.com/dgg/Rsharpr-Ts</projectUrl>
+		<!--iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</-->
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>R#-Ts allows creating ever-increasing timestamps in your code</description>
+		<releaseNotes>Initial Release</releaseNotes>
+		<copyright>Copyright 2015</copyright>
+		<tags>Macro Timestamp</tags>
+		<dependencies>
+			<dependency id="Wave" version="2.0" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="src\Rsharpr-Ts\bin\**\Rsharpr-Ts.dll" target="DotFiles\" />
+	</files>
+</package>
